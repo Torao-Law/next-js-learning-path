@@ -7,7 +7,7 @@ const DetailProduct = () : React.JSX.Element => {
   return (
     <div>
       <h1>Detail Product :</h1>
-      <p>Ini parameter yang ditangkap dari useRouter: {query.idProduct}</p>
+      <p>Ini parameter yang  useRouter: {query.idProduct}</p>
     </div>
   )
 }
