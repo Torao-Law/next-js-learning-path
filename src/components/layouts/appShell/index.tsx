@@ -6,8 +6,8 @@ type AppShellProps = {
   children: React.ReactNode
 }
 
-const pathName = ['/auth/login', '/auth/register']
-const AppShell = ({ children }: AppShellProps) => {
+const pathName = ['/auth/login', '/auth/register', '/404']
+const AppShell = ({ children }: AppShellProps) : React.JSX.Element => {
   const { pathname } = useRouter()
 
   return (
