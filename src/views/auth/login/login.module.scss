@@ -1,0 +1,28 @@
+@import "../../../styles/style.scss";
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+
+  .title {
+    color: map-get($colors, primary);
+  }
+
+  .loginButton {
+    padding: 8px 16px;
+    background-color: map-get($colors, secondary);
+    color: white;
+    border: 1px solid ;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: map-get($colors, tertiary);
+    }
+  }
+}
+

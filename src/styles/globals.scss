@@ -1,0 +1,14 @@
+// styles/globals.scss
+
+@import 'style'; // Pastikan ini mengarah ke file yang benar
+
+// Reset padding dan margin secara global
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; // Pastikan ini benar
+}
+
+body {
+  font-family: Arial, sans-serif; // Atur font global
+}
