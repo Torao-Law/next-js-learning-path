@@ -1,0 +1,14 @@
+@import "../../../styles/style.scss";
+
+.navbar {
+  background-color: map-get($map: $colors, $key: black);
+  padding: 10px 5%;
+  &__content {
+    color: map-get($map: $colors, $key: white);
+    cursor: pointer;
+
+    &:hover {
+      color: map-get($map: $colors, $key: grey);
+    }
+  }
+}

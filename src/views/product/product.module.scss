@@ -1,0 +1,19 @@
+@import "../../styles/style.scss";
+
+.product {
+  padding: 0 5%;
+  height: 100vh;
+
+  &__title {
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: underline;
+    color: map-get($map: $colors, $key: black)
+  }
+
+  &__contentWrapper {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+  }
+}
